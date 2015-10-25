@@ -6,7 +6,7 @@
     tools:context="com.hari.development.imhere.activity.HomeFragment">
 
 
-    <TextView
+    <!-- <TextView
         android:id="@+id/label"
         android:layout_alignParentTop="true"
         android:layout_marginTop="100dp"
@@ -26,5 +26,10 @@
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:text="Edit fragment_home.xml to change the appearance" />
-
+        -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.hari.development.imhere.activity.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </RelativeLayout>
